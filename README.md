@@ -1,7 +1,7 @@
 # esp32-wireless-radio
 Firmware to transform your ESP32 to a wireless (Bluetooth and WiFi) audio receiver. 
 
-The main goal of this project is to make an ESP32 play webradio and bluetooth audio. To this end, [Edzelf's ESP32Radio-V2](https://github.com/Edzelf/ESP32Radio-V2) is taken as a base and [P. Scahtzmann's ESP32-A2DP](https://github.com/pschatzmann/ESP32-A2DP) is added to that. I highly recommend you check out these projects, especially if you only need internet radio or bluetooth.
+The main goal of this project is to make an ESP32 play webradio and bluetooth audio. To this end, [Edzelf's ESP32Radio-V2](https://github.com/Edzelf/ESP32Radio-V2) is taken as a base and [P. Scahtzmann's ESP32-A2DP](https://github.com/pschatzmann/ESP32-A2DP) is added to that. I highly recommend you check out these projects, especially if you only need internet radio or bluetooth, both of which are available under the Apache-2.0 license.
 Furthermore, I tweaked the web interface to my personal taste. 
 
 ## Setup
