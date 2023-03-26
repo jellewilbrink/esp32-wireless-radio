@@ -9,6 +9,7 @@ Before deciding on the feasibility and the libraries to use for this project, so
 
 ## WiFi internet radio / streaming
 - https://github.com/pschatzmann/esp32_radio
+    - Phil's blog: https://www.pschatzmann.ch/home/2020/04/13/the-most-beautiful-radio-music-player-for-the-esp32/
     - GPL license. I could not get this to work yet. It does feature both a nice webradio player and bluetooth functionality. But no OTA updates.
 - https://github.com/Edzelf/ESP32Radio-V2
     -  More permissive license. Seems to work nicely, although I could not yet try audio output. Better documentation and additional features and hardware support. Features nice webradio player and OTA updates (not yet tried though), but no bluetooth streaming.
