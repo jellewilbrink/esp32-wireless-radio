@@ -17,6 +17,8 @@ Before deciding on the feasibility and the libraries to use for this project, so
 - https://github.com/pisicaverde/yet-another-internet-radio-ESP32
 - https://github.com/michelep/ESP32_WebRadio
 
+- Nice to try? https://github.com/sle118/squeezelite-esp32
+
 Package chosen to use: Edzelf/ESP32Radio-V2. pschatzmann/esp32_radio already has all desired features except for OTA, which would be very easy to implement. However, its license is less permissive; I don't know vue, whereas I can easily modify the webinterface by Edzelf to my liking; and the ESP32Radio-V2 offers much more hardware support, something I might use in the future. The flipside is that ESP32Radio-V2, so I will have to add this feature. This is harder than simply setting up ArduinoOTA, but should still be easily doable. Therefore, I choose Edzelf/ESP32Radio-V2 as a basis to which I will integrate pschatzmann/ESP32-A2DP for bluetooth support.
     
 Nice api endpoint: https://nl1.api.radio-browser.info/json/stations/bycountrycodeexact/NL?hidebroken=true
